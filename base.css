@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color:#e99212   ;
+    padding: 0px 20px 0px;
+    
+}
+
+/* Reset de estilos padrão para a lista e os links */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+      
+ul li {
+    display: inline-block; /* Exibe os itens na mesma linha */
+  }
+      
+/* Estilização do menu */
+.menu {
+    background-color: #e99212;
+    padding: 10px;
+    text-align: center;
+  }
+      
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-style: Arial;
+    border-radius: 20px; /* Borda arredondada */
+    transition: background-color 0.05s; /* Efeito de transição suave para a coloração do mouse */
+  }
+      
+.menu a:hover {
+    background-color: #d45800; /* Coloração ao passar o mouse */
+}
+
+.header {
+    background-color: #24345c;
+    min-height: 150px;
+}
+.content {
+    background-color: #dfe2e9;
+    min-height: 00px;
+    padding: 10px;
+   
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  min-height: 150px;
+}
+
+footer p {
+  margin: 7px 0;
+}
+
+/* Estilização específica para os links do rodapé */
+footer a {
+  color: #ffaa00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  
+}
+
+form{
+  padding: 1px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 186px;
+  width: 186px;
+}
+
+.card {
+  background-color: #d45800;
+}
+
+
+.custom-paragraph {
+  font-size: 16px;
+  margin-bottom: 1px; /* Adiciona 1px de espaço entre as linhas de texto */
+}
+
+
+
+
+
+
+
+
+
+
+
